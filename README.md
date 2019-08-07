@@ -18,4 +18,4 @@ In this level, we create a LED light circuit for application on textiles. This c
 
 What makes this circuit different from a normal light circuit is that we use textile elements or electronical components adapted for use on textiles.
 
-See Details on the (Construction page!)[level01/construction.md]
+See Details on the [Construction page!](level01/construction.md)
