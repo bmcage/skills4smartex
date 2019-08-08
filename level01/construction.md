@@ -28,6 +28,7 @@ go. A single small coincell battery can power maximally 3 LED1
 4. LED lights. You can use standard ones (cheapest) or specially designed (brighter)
     1. Sewable LED lights with integrated resistor, eg from [Kitronik](https://www.kitronik.co.uk/2746-electro-fashion-sewable-5mm-led-holder-pack-of-10.html)
     2. Standard 3V LED packs, eg from [amazon.de](https://www.amazon.de/APTWONZ-2-poligen-Diffuse-Leuchtdioden-Elektronikkomponenten/dp/B06X3VT6TD)
+    3. In combination with above standard LED, you can 3D print a small holder making it more easy to attach the LED to textile. Use [this design](https://www.thingiverse.com/thing:265121) then
 5. Battery holder for coincell battery. We use a 3.3V coincell. You can buy a normal coincell holder, one specifically designed for textile, or 3D print one.
     1. Sewable battery holder with switch, eg from [Kitronik](https://www.kitronik.co.uk/2711-electro-fashion-switched-coin-cell-holder.html)
     2. Sewable battery holder without switch, eg from [Kitronik](https://www.kitronik.co.uk/2701-sewable-coin-cell-holder.html)
@@ -43,6 +44,28 @@ holder with a switch, or make a switch from conductive parts.
 
 We will make a demonstrator showing how to make a LED light circuit on fabric in a way that the fabric is still maximally flexible. 
 
-### Step 01
+### Step 01 - Design your product: What will you make?
+For the demonstrator we make a light circuit on a 16x16cm felt fabric. We will create a pacman ghost with eyes that light up. In demonstrator 02 we will add two pacman. 
 
+Construct your design in inkscape to allow easy cutting. Indicate where your LED must go, and make sure the hole for the LED is the size of the LEDs you are using! Our designs are
+
+![ghost packman](pacman_objects_01b.svg) 
+
+and 
+
+![packman](pacman_objects_02b.svg)
+
+We will use vinyl paper to cut out these designs. You can use other textile fabrics instead. Or color textile by hand. We use a plotter to cut, but you can use scissors too of course.
+
+![Plotter](L01_step02.jpg)
+
+Once you have your design, place it on your base fabric to decide where they should go. 
+
+![Design](L01_step03.jpg)
+
+Happy? Then fixate the design on your fabric. In our case we use a heat press, but you could sew it in place instead.
+
+![Heat Press](L01_step04.jpg)
+
+### Step 02 - Layout your circuit
 
