@@ -33,12 +33,13 @@ go. A single small coincell battery can power maximally 3 LED1
     1. Sewable battery holder with switch, eg from [Kitronik](https://www.kitronik.co.uk/2711-electro-fashion-switched-coin-cell-holder.html)
     2. Sewable battery holder without switch, eg from [Kitronik](https://www.kitronik.co.uk/2701-sewable-coin-cell-holder.html)
     3. 3V battery holder standard with holes that allow sewing, eg [BA2032SM](https://www.enrgtech.co.uk/buy/product/ET14129119/BA2032SM)
-    4. 3D print 3V battery holder, eg [this design](https://www.thingiverse.com/thing:265116) or [this one](https://www.thingiverse.com/thing:250503)
-6. A Switch. You need to be able to switch off the lights, so they are only on when needed. It is possible to buy a coincell
+    4. CR2032 battery. This is the standard coincell battery you can buy everywhere for 1 to 2 Eur.
+    5. 3D print 3V battery holder, eg [this design](https://www.thingiverse.com/thing:265116) or [this one](https://www.thingiverse.com/thing:250503)
+    6. A switch. You need to be able to switch off the lights, so they are only on when needed. It is possible to buy a coincell
 holder with a switch, or make a switch from conductive parts.
-    1. Sewable battery holder with switch, eg from [Kitronik](https://www.kitronik.co.uk/2711-electro-fashion-switched-coin-cell-holder.html)
-    2. Conductive snap buttons (poppers). Verify they are conductive, many snap buttons are sold with a coating which is **not** conductive. Buy for example on [aliexpress](https://nl.aliexpress.com/item/32803692281.html?spm=a2g0z.search0104.3.9.651b8b77wqucHb&ws_ab_test=searchweb0_0,searchweb201602_10_10065_10068_319_317_10696_10084_)
-    3. Conductive Silver plated velcro. Expensive but very good switch in textile projects, buy for example with [Mission Control Lab](https://missioncontrollab.com/products/space-hook)
+        1. Sewable battery holder with switch, eg from [Kitronik](https://www.kitronik.co.uk/2711-electro-fashion-switched-coin-cell-holder.html)
+        2. Conductive snap buttons (poppers). Verify they are conductive, many snap buttons are sold with a coating which is **not** conductive. Buy for example on [aliexpress](https://nl.aliexpress.com/item/32803692281.html?spm=a2g0z.search0104.3.9.651b8b77wqucHb&ws_ab_test=searchweb0_0,searchweb201602_10_10065_10068_319_317_10696_10084_)
+        3. Conductive Silver plated velcro. Expensive but very good switch in textile projects, buy for example with [Mission Control Lab](https://missioncontrollab.com/products/space-hook)
 
 ## Demonstrator 01 Construction
 
@@ -55,6 +56,8 @@ and
 
 ![packman](pacman_objects_02b.svg)
 
+How many LED can you use? You can use up to 6 LED, however, **1 LED** (20 mA) will burn for around **10 hours** on a single coincell battery. For 5 LED this is already only 2 hours. Keep this in mind when deciding how many LED you use.
+
 We will use vinyl paper to cut out these designs. You can use other textile fabrics instead. Or color textile by hand. We use a plotter to cut, but you can use scissors too of course.
 
 ![Plotter](L01_step02.jpg)
@@ -68,4 +71,22 @@ Happy? Then fixate the design on your fabric. In our case we use a heat press, b
 ![Heat Press](L01_step04.jpg)
 
 ### Step 02 - Layout your circuit
+Now cut holes in the fabric where the LED must go, and flip your fabric. The LED positions are determined due to your design, so place your LED there. Place the battery holder where you want it to go. Rotate the LED in such a way that you can connect the + of the LED to the + of the battery, and the - of the LED to the - of the battery, **without** the lines crossing. Draw with a pen that will not be visible on the front, the lines for the connections.
 
+![Circuit](L01_step05.jpg)
+
+This circuit is a parallel circuit, that means that the LED are parallel from each other in a circuit diagram. Our circuit diagram is:
+
+**How long can the circuit lines be?** This depends on the resistance of your electrically conductive yarn. The total resistance for a single LED should be below 180 Ohm. Measure the resistance of 50cm of yarn with a multimeter, and you know how long your circuit lines can be!
+
+### Step 03 - Finish by sewing the circuit
+
+You can now finish up by sewing the conductive yarn. Go several times around the holes of the LED and battery holder, so as to be sure you have a good connection between the yarn and the fixed PCB board. **Make tight connections at the endpoints by using stitches (knots) you pull tight!**
+
+![Sew Circuit](L01_step06.jpg)
+
+Now place the battery in the battery holder and switch on your circuit. Your result should be:
+
+![demonstrator 01](L01_step07.jpg)
+
+Congratulations, you made your first smart textile project!
