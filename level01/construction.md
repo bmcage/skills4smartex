@@ -92,3 +92,31 @@ Now place the battery in the battery holder and switch on your circuit. Your res
 ![demonstrator 01](L02_step07.jpg)
 
 Congratulations, you made your first smart textile project!
+
+## Demonstrator 02 Construction
+
+In this demonstrator we will use the cheaper standard LED, and a battery holder without built in switch. This means we need to create our own switch, and we need to adapt the LED so we can sew them. 
+
+### Step 01 - Learn the parts
+Let us look in details to the parts that are different from demonstrator 01: the LED and the popper button. A LED looks like this:
+
+![LED](LED.svg)
+
+You see it has a short and a long leg. The short leg is the *minus* side of the LED, and the longer leg the *plus* side of the LED. You need to connect it to the battery like this. 
+
+
+![demonstrator 02 parts](L02_step08a.jpg)
+
+![demonstrator 02 LED preperation](L02_step08.jpg)
+
+![demonstrator 02 popper](L02_step09.jpg)
+
+![demonstrator 02 popper other side](L02_step10.jpg)
+
+![demonstrator 02 circuit](L02_step11.jpg)
+
+![demonstrator 02 test](L02_step12.jpg)
+
+![demonstrator 02 hide wires](L02_step13.jpg)
+
+![demonstrator 02 final](L02_step14.jpg)
