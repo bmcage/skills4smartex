@@ -109,6 +109,8 @@ You see it has a short and a long leg. The short leg is the *minus* side of the 
 
 ![demonstrator 02 LED preperation](L02_step08.jpg)
 
+![demonstrator 02 Circuit Diagram](parallel_LED_circuit_switch.svg)
+
 ![demonstrator 02 popper](L02_step09.jpg)
 
 ![demonstrator 02 popper other side](L02_step10.jpg)
