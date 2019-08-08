@@ -73,7 +73,7 @@ Happy? Then fixate the design on your fabric. In our case we use a heat press, b
 ### Step 02 - Layout your circuit
 Now cut holes in the fabric where the LED must go, and flip your fabric. The LED positions are determined due to your design, so place your LED there. Place the battery holder where you want it to go. Rotate the LED in such a way that you can connect the + of the LED to the + of the battery, and the - of the LED to the - of the battery, **without** the lines crossing. Draw with a pen that will not be visible on the front, the lines for the connections.
 
-![Circuit](L01_step05.jpg)
+![Circuit](L02_step05.jpg)
 
 This circuit is a parallel circuit, that means that the LED are parallel from each other in a circuit diagram. Our circuit diagram is:
 
@@ -83,10 +83,10 @@ This circuit is a parallel circuit, that means that the LED are parallel from ea
 
 You can now finish up by sewing the conductive yarn. Go several times around the holes of the LED and battery holder, so as to be sure you have a good connection between the yarn and the fixed PCB board. **Make tight connections at the endpoints by using stitches (knots) you pull tight!**
 
-![Sew Circuit](L01_step06.jpg)
+![Sew Circuit](L02_step06.jpg)
 
 Now place the battery in the battery holder and switch on your circuit. Your result should be:
 
-![demonstrator 01](L01_step07.jpg)
+![demonstrator 01](L02_step07.jpg)
 
 Congratulations, you made your first smart textile project!
