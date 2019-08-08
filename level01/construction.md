@@ -77,7 +77,7 @@ Now cut holes in the fabric where the LED must go, and flip your fabric. The LED
 
 This circuit is a parallel circuit, that means that the LED are parallel from each other in a circuit diagram. Our circuit diagram is:
 
-![Circuit Diagram](parallel_LED_circuit.svg)
+![Circuit Diagram](parallel_LED_circuit.svg.png)
 
 **How long can the circuit lines be?** This depends on the resistance of your electrically conductive yarn. The total resistance for a single LED should be below 180 Ohm. Measure the resistance of 50cm of yarn with a multimeter, and you know how long your circuit lines can be!
 
@@ -109,7 +109,7 @@ You see it has a short and a long leg. The short leg is the *minus* side of the 
 
 ![demonstrator 02 LED preperation](L02_step08.jpg)
 
-![demonstrator 02 Circuit Diagram](parallel_LED_circuit_switch.svg)
+![demonstrator 02 Circuit Diagram](parallel_LED_circuit_switch.svg.png)
 
 ![demonstrator 02 popper](L02_step09.jpg)
 
