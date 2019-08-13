@@ -53,21 +53,39 @@ a corn cushion and a battery holder, together with felt as the fabric material.
 
 ![L03 materials](L03_step01.jpg)
 
+### Step 02 - Construction 
+
+#### Principle
+A circuit with a battery, pushbutton and 6 LED has following circuit diagram:
 
 ![L03 circuit](parallel_LED_circuit_pushbtn.svg.png)
 
+We will create this cirecuit in a sandwich textile structure. This means we have a backing layer, the circuit placed on top of this, and then a top layer. As textile is partially transparent to light, we will make **no holes** in the top layer. This protects the electronics from the user. 
+
+This layering also helps in constructing the textile push button, which is two conductive parts kept separated by a compressible layer (our foam of felt) with a hole. By compression the top and bottom parts can connect, closing our circuit. The layering is as follows:
+
+#### Placing the components
+
+We use the adhesive conductive fabric to fix the components to the backing layer. If you use conductive yarn or non-adhesive conductive fabric to make the connections, you need to sew them in place instead.
+
+Make a circuit connecting all + of the LED together, and all - together, as follows:
 
 ![L03 construction01](L03_step03.jpg)
 
 
 ![L03 construction02](L03_step04.jpg)
 
+#### Creating the push button
 
 ![L03 push button](L03_step05.jpg)
 
+### Step 03 - Finishing up
+
+Place a battery in the holder and test if the button and LED work.
 
 ![L03 test](L03_step06.jpg)
 
+Now, create the front layer, and sew it over the backing layer. Make a cut in the backing layer to allow replacing the battery when needed.
 
-![L03 final01](L03_step07.jpg) ![L03 final02](L03_step08.jpg)
+![L03 final01](L03_step07.png) ![L03 final02](L03_step08.png)
 
