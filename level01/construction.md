@@ -115,7 +115,7 @@ This will allow you to securely attach wire to the LED.
 
 #### Popper buttons
 
-Popper buttons are the snap buttons used in garments. We use the kind whith holes that allow them to be sewed on fabrics. They **need** to be conductive for our use. Many snap buttons have non-conductive coatings, test with a [multimeter](https://en.wikipedia.org/wiki/Multimeter) or battery tester if conductive before buying.
+Popper buttons are the snap buttons used in garments. We use the kind with holes that allow them to be sewed on fabrics. They **need** to be conductive for our use. Many snap buttons have non-conductive coatings, test with a [multimeter](https://en.wikipedia.org/wiki/Multimeter) or battery tester if conductive before buying.
 
 ![demonstrator 02 snap button](L02_snapbutton.jpeg)
 
@@ -133,10 +133,9 @@ We have selected following design:
 
 Rotated:
 
-![demonstrator 02 popper](L02_step09.jpg)
+![demonstrator 02 popper other side](L02_step10.jpg)
 
 ### Step 03 - Finishing up
-![demonstrator 02 popper other side](L02_step10.jpg)
 
 Test your construction before doing the final touches:
 
@@ -148,4 +147,4 @@ We add extra fabric over the back of the slip to protect the wires.
 
 Congratulations, you have created a smart textile! The result of demonstrator 01 and 02 in action:
 
-![demonstrator 02 final](L02_step14.jpg)
+![demonstrator 02 popper](L02_step09.jpg) ![demonstrator 02 final](L02_step14.jpg)
