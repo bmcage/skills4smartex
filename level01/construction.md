@@ -35,11 +35,11 @@ go. A single small coincell battery can power maximally 3 LED1
     3. 3V battery holder standard with holes that allow sewing, eg [BA2032SM](https://www.enrgtech.co.uk/buy/product/ET14129119/BA2032SM)
     4. CR2032 battery. This is the standard coincell battery you can buy everywhere for 1 to 2 Eur.
     5. 3D print 3V battery holder, eg [this design](https://www.thingiverse.com/thing:265116) or [this one](https://www.thingiverse.com/thing:250503)
-    6. A switch. You need to be able to switch off the lights, so they are only on when needed. It is possible to buy a coincell
+6. A switch. You need to be able to switch off the lights, so they are only on when needed. It is possible to buy a coincell
 holder with a switch, or make a switch from conductive parts.
-        1. Sewable battery holder with switch, eg from [Kitronik](https://www.kitronik.co.uk/2711-electro-fashion-switched-coin-cell-holder.html)
-        2. Conductive snap buttons (poppers). Verify they are conductive, many snap buttons are sold with a coating which is **not** conductive. Buy for example on [aliexpress](https://nl.aliexpress.com/item/32803692281.html?spm=a2g0z.search0104.3.9.651b8b77wqucHb&ws_ab_test=searchweb0_0,searchweb201602_10_10065_10068_319_317_10696_10084_)
-        3. Conductive Silver plated velcro. Expensive but very good switch in textile projects, buy for example with [Mission Control Lab](https://missioncontrollab.com/products/space-hook)
+    1. Sewable battery holder with switch, eg from [Kitronik](https://www.kitronik.co.uk/2711-electro-fashion-switched-coin-cell-holder.html)
+    2. Conductive snap buttons (poppers). Verify they are conductive, many snap buttons are sold with a coating which is **not** conductive. Buy for example on [aliexpress](https://nl.aliexpress.com/item/32803692281.html?spm=a2g0z.search0104.3.9.651b8b77wqucHb&ws_ab_test=searchweb0_0,searchweb201602_10_10065_10068_319_317_10696_10084_)
+    3. Conductive Silver plated velcro. Expensive but very good switch in textile projects, buy for example with [Mission Control Lab](https://missioncontrollab.com/products/space-hook)
 
 ## Demonstrator 01 Construction
 
