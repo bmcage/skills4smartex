@@ -98,27 +98,54 @@ Congratulations, you made your first smart textile project!
 In this demonstrator we will use the cheaper standard LED, and a battery holder without built in switch. This means we need to create our own switch, and we need to adapt the LED so we can sew them. 
 
 ### Step 01 - Learn the parts
+#### Standard LED
 Let us look in details to the parts that are different from demonstrator 01: the LED and the popper button. A LED looks like this:
 
 ![LED](LED.svg)
 
-You see it has a short and a long leg. The short leg is the *minus* side of the LED, and the longer leg the *plus* side of the LED. You need to connect it to the battery like this. 
-
+You see it has a short and a long leg. The short leg is the *minus* side of the LED, and the longer leg the *plus* side of the LED. You need to connect it to the respective minus and plus connector of the battery.
 
 ![demonstrator 02 parts](L02_step08a.jpg)
 
+We need to be able to sew the LED in place, for which we create *eyelets* on the LED. Take a pair of long nose pliers, and use the nose to create these as in the following image:
+
 ![demonstrator 02 LED preperation](L02_step08.jpg)
+
+This will allow you to securely attach wire to the LED.
+
+#### Popper buttons
+
+Popper buttons are the snap buttons used in garments. We use the kind whith holes that allow them to be sewed on fabrics. They **need** to be conductive for our use. Many snap buttons have non-conductive coatings, test with a [multimeter](https://en.wikipedia.org/wiki/Multimeter) or battery tester if conductive before buying.
+
+![demonstrator 02 snap button](L02_snapbutton.jpeg)
+
+### Step 02 - The circuit
+
+A switch has two positions: open or closed. This allows us to make following circuit:
 
 ![demonstrator 02 Circuit Diagram](parallel_LED_circuit_switch.svg.png)
 
-![demonstrator 02 popper](L02_step09.jpg)
+Consider were you want the LED and the button. Cut holes for the LED, turn your fabric around and place them, then draw out the circuit making sure the polarities are connected correctly (plus of LED to plus of battery, ...), **without** the lines crossing. Should you have a recuirment of crossing lines, use fabric inbetween to avoid short circuit.
 
-![demonstrator 02 popper other side](L02_step10.jpg)
+We have selected following design:
 
 ![demonstrator 02 circuit](L02_step11.jpg)
 
+Rotated:
+
+![demonstrator 02 popper](L02_step09.jpg)
+
+### Step 03 - Finishing up
+![demonstrator 02 popper other side](L02_step10.jpg)
+
+Test your construction before doing the final touches:
+
 ![demonstrator 02 test](L02_step12.jpg)
 
+We add extra fabric over the back of the slip to protect the wires.
+
 ![demonstrator 02 hide wires](L02_step13.jpg)
+
+Congratulations, you have created a smart textile! The result of demonstrator 01 and 02 in action:
 
 ![demonstrator 02 final](L02_step14.jpg)
