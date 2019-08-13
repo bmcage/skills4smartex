@@ -21,9 +21,10 @@ adapted for use on textiles.
 a design, or use transfer vinyl paper, or transfer paper, or embroidery. Make sure in your design it is clear where the LED-Lights
 go. A single small coincell battery can power maximally 6 LED in this set up
 3. Conductive thread or conductive fabric. You need a high conductive (low resistance) fabric or yarn. Some options:
-    1. Silver coated fabric with conductive adhesive on one side. Mi
-    2. Stainless steel. The cheapest option. Many resellers of [adafruit Stainless Thin Conductive Thread](https://www.adafruit.com/product/640), for example [Mouser](https://www.mouser.be/ProductDetail/Adafruit/603?qs=sGAEpiMZZMu%252BmKbOcEVhFQfi8wYXkauJFoZL2xpCq%252BVRONBlSbRF3w%3D%3D)
-    3. Silver plated yarn. The highest conductivity. Madeira has a range for embroidery that can be bought from every Madeira reseller: [HC 12 150m SMALL CONE](https://shop.madeira.co.uk/hc-12-150m-sample-(high-conductive)_hc12-smp-xxx-xxx.htm)
+    1. Silver coated fabric with conductive adhesive on one side. We only require a small band like from [Mission Control Lab](https://missioncontrollab.com/collections/technologist-and-teacher-supply/products/space-tape)
+    2. Conductive fabric which needs to be sewed on your base fabric, eg from [adafruit](https://www.adafruit.com/product/1168)
+    3. Stainless steel yarn. The cheapest option. Many resellers of [adafruit Stainless Thin Conductive Thread](https://www.adafruit.com/product/640), for example [Mouser](https://www.mouser.be/ProductDetail/Adafruit/603?qs=sGAEpiMZZMu%252BmKbOcEVhFQfi8wYXkauJFoZL2xpCq%252BVRONBlSbRF3w%3D%3D)
+    4. Silver plated yarn. The highest conductivity. Madeira has a range for embroidery that can be bought from every Madeira reseller: [HC 12 150m SMALL CONE](https://shop.madeira.co.uk/hc-12-150m-sample-(high-conductive)_hc12-smp-xxx-xxx.htm)
 4. LED lights. You can use standard ones (cheapest) or specially designed (brighter)
     1. Sewable LED lights with integrated resistor, eg from [Kitronik](https://www.kitronik.co.uk/2746-electro-fashion-sewable-5mm-led-holder-pack-of-10.html)
     2. Standard 3V LED packs, eg from [amazon.de](https://www.amazon.de/APTWONZ-2-poligen-Diffuse-Leuchtdioden-Elektronikkomponenten/dp/B06X3VT6TD)
@@ -50,4 +51,23 @@ Our demonstrator will form a side of a textile cube people can interact with: wh
 Start with collecting your materials. In our case we have selected 6 dedicated LEDs for use in textiles, conductive fabric instead of condutive yarn,
 a corn cushion and a battery holder, together with felt as the fabric material.
 
-![L03 materials]()
+![L03 materials](L03_step01.jpg)
+
+
+![L03 circuit](parallel_LED_circuit_pushbtn.svg.png)
+
+
+![L03 construction01](L03_step03.jpg)
+
+
+![L03 construction02](L03_step04.jpg)
+
+
+![L03 push button](L03_step05.jpg)
+
+
+![L03 test](L03_step06.jpg)
+
+
+![L03 final01](L03_step07.jpg) ![L03 final02](L03_step08.jpg)
+
