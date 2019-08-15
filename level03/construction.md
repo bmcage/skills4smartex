@@ -46,3 +46,91 @@ We will make a demonstrator that reads in pressure applied to a fabric, and reac
 ### Step 01 - Design your product: What will you make?
 
 We want to make a textile input pad that can be squeezed/pressed, the size of a PC mice. 
+
+### Step 02 - Construction of the pressure pad
+
+Start with collecting your fabrics, and cut them in the size you want. The backing and top material:
+
+![L05 materials 01](L05_step01.jpg)
+
+and the pressure sensitive fabric:
+
+![L05 materials 02](L05_step02.jpg)
+
+With the conductive yarn, make a pattern on the backing material that will form the electrode in contact with the pressure sensitive fabric
+
+![L05 electrode 01](L05_step03.jpg) 
+
+Add a conductive snap button where the pressure pad will connect to your connector. 
+
+![L05 snap button](L05_step04.jpg)
+
+Create a good connection with the snap button 
+
+![L05 snap button connection](L05_step05.jpg)
+
+Repeat this step with the top fabric, in such a way that when the electrodes are facing each other the snap button connectors are in different positions so they cannot create a short circuit
+
+![L05 two electrodes](L05_step06.jpg)
+
+Now add the pressure sensitive material in the middle
+
+![L05 pressure material](L05_step07.jpg)
+
+If there is a danger of short circuit between the electrodes, add some cover fabric as in the image below. Non conductive fabric and yarn are used for this. 
+
+![L05 protection material](L05_step08.jpg)
+
+Once satisfied, sew everything together to obtain a thin pad.
+
+![L05 materials 02](L05_step09.jpg)
+
+Test the pressure pad to see that different pressures give different values of the resistivity. Use a multimeter for this. In our case, we measure on no pressure 15.5 kOhm
+
+![L05 materials 02](L05_step10.jpg)
+
+When applying pressure this drops, as in the following figure where the pressure is 1.8 kOhm
+
+![L05 materials 02](L05_step11.jpg)
+
+The pressure pad can already be used now, but we want a more robust larger pad for our application. Adding extra foam will spread out the pressure better causing less variation. It will also make the pad larger which is more suitable for smaller children, allowing for a squeezing action. We add foam at bottom and top, and close everything in a felt cover
+
+![L05 materials 02](L05_step12.jpg)
+
+The final pressure pad seen from top and bottom is:
+
+![L05 materials 02](L05_step13.jpg) ![L05 materials 02](L05_step14.jpg)
+
+### Step 3 - Reading in the pressure data
+
+A variable pressure data is only usefull if we read this in with a microprocessor, and react to the pressure level. One could add a screen to show pressure data, or create a game that reacts to the amount of pressure. To show the principle, we will read in the data, and react with light depending on the pressure level, going from green light on no pressure, blue on medium, and red on high pressure.
+
+We still need to add for this the following parts:
+
+1. A connector from our pressure pad to the shirt/fabric/surface where the reaction is
+2. A battery. As a microprocessor consumes more power, AAA batteries will be used
+3. A microprocessor to read in the sensor and react to it. 
+4. An RGB LED that can show multiple colors. 
+
+We select following components:
+
+1. Ingegno 3 wire elastic fabric ![L05 connector](L05_step15.jpg)
+2. xx battery holder
+3. Neopixel LED
+4. Wemos ESPxx board
+
+#### Creating the connector
+
+The connector is explained here
+
+#### Creating the actuator: neopixel LED on fabric
+
+Adding neopixel to a fabric
+
+#### Adding the WeMos and connections to sensor and actuator
+
+Connecting sensor and neopixel to the WeMos and placing the WeMos on the fabric
+
+### Step 4 - Testing and Finishing touches
+
+Pictures of the final result
