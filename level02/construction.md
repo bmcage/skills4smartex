@@ -60,9 +60,15 @@ A circuit with a battery, pushbutton and 6 LED has following circuit diagram:
 
 ![L03 circuit](parallel_LED_circuit_pushbtn.svg.png)
 
-We will create this cirecuit in a sandwich textile structure. This means we have a backing layer, the circuit placed on top of this, and then a top layer. As textile is partially transparent to light, we will make **no holes** in the top layer. This protects the electronics from the user. 
+We will create this circuit in a sandwich textile structure. This means we have a backing layer, the circuit placed on top of this, and then a top layer. As textile is partially transparent to light, we will make **no holes** in the top layer. This protects the electronics from the user. Schematically this is:
 
-This layering also helps in constructing the textile push button, which is two conductive parts kept separated by a compressible layer (our foam of felt) with a hole. By compression the top and bottom parts can connect, closing our circuit. The layering is as follows:
+![L03 sandwich](sandwich_structure.svg.png)
+
+#### Principle of the Push Button
+
+This layering also helps in constructing the textile push button, as seen in the figure above. We use a two conductive parts kept separated by a compressible layer (our foam of felt) with a hole. The conductive part can be conductive fabric or yarn. By compression the top and bottom parts can connect, closing our circuit.
+
+Any foam can be used. We use in this demonstrator a corn cushions as these already have the form and structure we require, without extra cutting needed.
 
 #### Placing the components
 
@@ -76,6 +82,9 @@ Make a circuit connecting all + of the LED together, and all - together, as foll
 ![L03 construction02](L03_step04.jpg)
 
 #### Creating the push button
+Now create the push button according to the principle given above. Place the corn cushion over the conductive fabric. On the underside of the top layer you place conductive fabric so that after sewing it is just above the hole in the corn cushion.
+
+Next, link the conductive fabric on the underside of the top layer to the circuit layer on the backing layer so as to close the circuit.
 
 ![L03 push button](L03_step05.jpg)
 
