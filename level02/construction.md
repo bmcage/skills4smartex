@@ -98,3 +98,39 @@ Now, create the front layer, and sew it over the backing layer. Make a cut in th
 
 ![L03 final01](L03_step07.png) ![L03 final02](L03_step08.png)
 
+
+## Demonstrator 04 Construction
+
+Here we show the same principle of a push button, but using conductive yarn. 
+
+### Step 01 - creating a large conductive fabric.
+
+It is possible to use conductive yarn on production machines to sew, knit, weave or embroider. As an example, we used conductive wire to create a woven structure. In this the warp yarns are cotton, and the weft yarns are cotton, exept every 4 mm when we introduce conductive stainless steel yarn. The result is:
+
+![L04 woven conductive fabric](L04_step01.jpg)
+
+Making two of these, we have a backing layer and a top layer, but now the circuit is integrated into the fabric instead of placed on top of the backing layer. These constuctions are ideal for heating fabric or for integration in for example upholstery.
+
+### Step 02 - Turn it into a push button.
+
+To turn our woven conductive fabric into a push button, we require a foam in the middle. We used packaging of an electrical appliance:
+
+![L04 foam](L04_step02.jpg)
+
+Cut this in the required size, then make holes where you want a push action turned into an input for your electronical circuit. In our case, we want any large push (hand) in the zone to lead to a push, so we add holes everywhere. Careful, the holes should not be too small or a push will not be registered, and not too large, or the fabric will bend in the holes and make contact also if nobody pushes. Our resulting foam is:
+
+![L04 foam holes](L04_step03.jpg)
+
+Now create the sandwich structure, using the backing material, the foam and the top material. As the conductive yarns in our woven structure are in one direction (the weft of the fabric), make sure the yarns of the top and bottom layer are perpendicular. So for example, place them horizontal in the backing material, and vertical in the top material.
+
+### Step 03 - Test and finalize.
+
+Test the push button before sewing everything together. Use a multimeter to measure the resistance. When no push is done, the circuit is open, which a multimeter displays as 1.
+
+![L04 test01](L04_step04.jpg) 
+
+Push on the fabric. The resistance should drop below 180 Ohm, which for a 3V battery means a LED can activate on push.
+
+![L04 test02](L04_step05.jpg)
+
+To finalize the circuit, as in [Demonstrator 03](construction.md#demonstrator-03-construction), use a battery and LED to react to the circuit. In our case we will conect this push button to the same battery and LED as in [Demonstrator 03](construction.md#demonstrator-03-construction).
