@@ -114,7 +114,10 @@ We still need to add for this the following parts:
 
 We select following components:
 
-1. Ingegno 3 wire elastic fabric ![L05 connector](L05_step15.jpg)
+1. Ingegno 3 wire elastic fabric 
+
+    ![L05 connector](L05_step15.jpg)
+
 2. xx battery holder
 3. Neopixel LED
 4. Wemos ESPxx board
