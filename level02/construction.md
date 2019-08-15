@@ -133,4 +133,4 @@ Push on the fabric. The resistance should drop below 180 Ohm, which for a 3V bat
 
 ![L04 test02](L04_step05.jpg)
 
-To finalize the circuit, as in [Demonstrator 03](construction.md#demonstrator-03-construction), use a battery and LED to react to the circuit. In our case we will conect this push button to the same battery and LED as in [Demonstrator 03](construction.md#demonstrator-03-construction).
+To finalize the circuit, as in [Demonstrator 03](construction.md#demonstrator-03-construction), use a battery and LED to react to the push action. In our case we connect this push button to the same battery and LED as in [Demonstrator 03](construction.md#demonstrator-03-construction).
