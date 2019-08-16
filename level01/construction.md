@@ -107,7 +107,7 @@ You see it has a short and a long leg. The short leg is the *minus* side of the 
 
 ![demonstrator 02 parts](L02_step08a.jpg)
 
-To be able to sew the LED we make *eyelets* with the legs of the LED. Take a pair of long nose pliers (Jewelry Pliers), and use the nose to create these as in the following image:
+To be able to sew the LED we make *eyelets* with the legs of the LED. Take a pair of long nose pliers (jewelry pliers), and use the nose to create these as in the following image:
 
 ![demonstrator 02 LED preperation](L02_step08.jpg)
 
@@ -115,19 +115,19 @@ This will allow you to securely attach wire to the LED.
 
 #### Popper buttons
 
-Popper buttons are the snap buttons used in garments. We use the kind with holes that allow them to be sewed on fabrics. They **need** to be conductive for our use. Many snap buttons have non-conductive coatings, test with a [multimeter](https://en.wikipedia.org/wiki/Multimeter) or battery tester if conductive before buying.
+Popper buttons are the snap buttons used in garments. We use the kind with holes that allow them to be sewed on fabrics. They **need** to be conductive in our application. Many snap buttons have non-conductive coatings, test with a [multimeter](https://en.wikipedia.org/wiki/Multimeter) or battery tester if conductive before buying.
 
 ![demonstrator 02 snap button](L02_snapbutton.jpeg)
 
 ### Step 02 - The circuit
 
-A switch has two positions: open or closed. This allows us to make following circuit:
+A switch has two positions: open or closed. We make the following circuit:
 
 ![demonstrator 02 Circuit Diagram](parallel_LED_circuit_switch.svg.png)
 
-Consider were you want the LED and the button. Cut holes for the LED, turn your fabric around and place them, then draw out the circuit making sure the polarities are connected correctly (plus of LED to plus of battery, ...), **without** the lines crossing. Should you have a recuirment of crossing lines, use fabric inbetween to avoid short circuit.
+Decide where you want the LED's and the button. Cut holes for the LED's, turn your fabric around and place them, then draw out the circuit making sure the polarities are connected correctly (plus of LED to plus of battery, ...), **without** the lines crossing. If you cannot avoid crossing lines, use non-conductive fabric inbetween layers to avoid short circuit.
 
-We have selected following design:
+We have selected the following design:
 
 ![demonstrator 02 circuit](L02_step11.jpg)
 
@@ -145,6 +145,6 @@ We add extra fabric over the back of the slip to protect the wires.
 
 ![demonstrator 02 hide wires](L02_step13.jpg)
 
-Congratulations, you have created a smart textile! The result of demonstrator 01 and 02 in action:
+Congratulations, you have created a smart textile soft toy! The result of demonstrator 01 and 02 in action:
 
 ![demonstrator 02 popper](L02_step09.jpg) ![demonstrator 02 final](L02_step14.jpg)
