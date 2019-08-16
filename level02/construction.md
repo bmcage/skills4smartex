@@ -72,7 +72,7 @@ Any foam can be used. We use in this demonstrator a corn cushions as these alrea
 
 #### Placing the components
 
-We use the adhesive conductive fabric to fix the components to the back layer. If you use conductive yarn or non-adhesive conductive fabric to make the connections, you need to sew them in place.
+We use the adhesive conductive fabric to fix the components to the backing layer. If you use conductive yarn or non-adhesive conductive fabric to make the connections, you need to sew them in place.
 
 Make a circuit connecting all + of the LED's together, and all - together, as follows:
 
@@ -84,7 +84,7 @@ Make a circuit connecting all + of the LED's together, and all - together, as fo
 #### Creating the push button
 Now create the push button according to the principle given above. Place the corn cushion over the conductive fabric. On the underside of the top layer you place conductive fabric so that after sewing it is just above the hole in the corn cushion.
 
-Next, link the conductive fabric on the underside of the top layer to the circuit layer on the back layer to close the circuit.
+Next, link the conductive fabric on the underside of the top layer to the circuit layer on the backing layer to close the circuit.
 
 ![L03 push button](L03_step05.jpg)
 
@@ -94,7 +94,7 @@ Place a battery in the holder and test if the button and LED's work.
 
 ![L03 test](L03_step06.jpg)
 
-Now, create the front layer, and sew it over the back layer. Make a cut in the back layer to allow replacing the battery when needed.
+Now, create the front layer, and sew it over the backing layer. Make a cut in the backing layer to allow replacing the battery when needed.
 
 ![L03 final01](L03_step07.png) ![L03 final02](L03_step08.png)
 
@@ -109,7 +109,7 @@ It is possible to use conductive yarn on production machines to sew, knit, weave
 
 ![L04 woven conductive fabric](L04_step01.jpg)
 
-Making two of these, we have a back layer and a top layer, but now the circuit is integrated into the fabric instead of placed on top of the back layer. These constuctions are ideal for heating fabric or for integration in for example upholstery.
+Making two of these, we have a backing layer and a top layer, but now the circuit is integrated into the fabric instead of placed on top of the backing layer. These constuctions are ideal for heating fabric or for integration in for example upholstery.
 
 ### Step 02 - Turn it into a push button.
 
