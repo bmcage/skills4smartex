@@ -66,7 +66,7 @@ Once you have your design, place it on your base fabric to decide where they sho
 
 ![Design](L01_step03.jpg)
 
-Happy? Then fixate the design on your fabric. In our case we use a heat press, but you could sew it in place instead.
+Happy? Fix the transfer vinyl design to the fabric. We used a heat press, but you could use an iron.
 
 ![Heat Press](L01_step04.jpg)
 
