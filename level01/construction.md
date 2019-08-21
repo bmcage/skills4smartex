@@ -30,7 +30,7 @@ go. A single small coincell battery can power maximally 3 LED1
     2. Standard 3V LED packs, eg from [amazon.de](https://www.amazon.de/APTWONZ-2-poligen-Diffuse-Leuchtdioden-Elektronikkomponenten/dp/B06X3VT6TD)
     3. In combination with a standard LED, you can 3D print a small holder making it easier to sew the LED. Use [this design](https://www.thingiverse.com/thing:265121).
 5. Battery holder for coincell battery. We use a 3.3V coincell. You can buy a normal coincell holder, one specifically designed for textile, or 3D print one.
-    1. Sewable battery holder with switch, eg from [Kitronik](https://www.kitronik.co.uk/2711-electro-fashion-switched-coin-cell-holder.html)
+    1. Sewable battery holder with switch, eg from [Kitronik](https://www.kitronik.co.uk/2711-electro-fashion-switched-coin-cell-holder.html) or [via AliExpress](https://nl.aliexpress.com/item/32952668027.html?spm=a2g0o.productlist.0.0.789532e057EJ8V&algo_pvid=310248b5-e6d9-48d1-b7da-a4d48a39af42&algo_expid=310248b5-e6d9-48d1-b7da-a4d48a39af42-3&btsid=d866e377-f338-4125-8bfd-4ca0719536f6&ws_ab_test=searchweb0_0,searchweb201602_7,searchweb201603_52)
     2. Sewable battery holder without switch, eg from [Kitronik](https://www.kitronik.co.uk/2701-sewable-coin-cell-holder.html)
     3. 3V battery holder standard with holes that allow sewing, eg [BA2032SM](https://www.enrgtech.co.uk/buy/product/ET14129119/BA2032SM)
     4. CR2032 battery. This is the standard coincell battery you can buy everywhere for 1 to 2 Eur or less.
