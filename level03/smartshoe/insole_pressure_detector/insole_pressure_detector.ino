@@ -50,8 +50,8 @@ const char* mqtt_server = "192.168.1.24";  //eth0 address of the raspberry pi - 
 
 // true or false to indicate if dist sensor is present
 const bool VL53L0X_CONNECTED = true;
-const int VL53L0X_SCL_PIN = D1;
 const int VL53L0X_SDA_PIN = D2;
+const int VL53L0X_SCL_PIN = D1;
 
 /** 
  *  END CONFIGURATION
@@ -67,9 +67,9 @@ WiFiClient client;
 #include "Adafruit_VL53L0X.h"
 
 Adafruit_VL53L0X dist_sens = Adafruit_VL53L0X();
-VL53L0X_RangingMeasurementData_t dist_measure;
 
 int PressureADC;
+VL53L0X_RangingMeasurementData_t dist_measure;
 int i;
 
 int ard_effect0_status = -1;
@@ -94,10 +94,12 @@ void WriteSerial() {
     ard_effect0_status = 0;
     ard_effect0_start = ard_effect0_start + ard_effect0_time;
     ard_effect0_time = 0;
+    determine_localtimenow();
     Serial.print(millis()); Serial.print(F(", "));
     Serial.print(PressureADC); Serial.print(F(", "));
-    Serial.print(timeClient.getFullFormattedTime());
+    Serial.print(localtimenow);
     if (VL53L0X_CONNECTED) {
+      dist_sens.rangingTest(&dist_measure, false); // pass in 'true' to get debug data printout!
       Serial.print(F(", "));
       if (dist_measure.RangeStatus != 4) {
         Serial.print(dist_measure.RangeMilliMeter);
@@ -164,9 +166,6 @@ void setup() {
 
 void loop() {
   PressureADC = analogRead(Pressure_Sensor);
-  if (VL53L0X_CONNECTED) {
-    dist_sens.rangingTest(&dist_measure, false); // pass in 'true' to get debug data printout!
-  }
-  
   WriteSerial();
+  
 }
