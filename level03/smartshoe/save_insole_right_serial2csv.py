@@ -70,6 +70,7 @@ while True:
         
 #        ser_shoeaccel_bytes = ser_shoeaccel_bytes.decode("utf-8").split(',')
 #        ser_shoeleft_bytes = ser_shoeleft_bytes.decode("utf-8").split(',')[:-1]
+        #print (ser_shoeright_bytes.decode("utf-8").split(','))
         ser_shoeright_bytes = ser_shoeright_bytes.decode("utf-8").split(',')[:-1]
         if ( len(ser_shoeright_bytes) == 4 ):
             decoded_bytes = [float(x) for x in ser_shoeright_bytes]
@@ -81,7 +82,7 @@ while True:
                     writer = csv.writer(f,delimiter=",")
                     writer.writerow(decoded_bytes)
     except ValueError:
-        print("Cannot convert to floats", ser_bytes)
+        print("Cannot convert to floats", ser_shoeright)
     except:
         print("Keyboard Interrupt")
         break

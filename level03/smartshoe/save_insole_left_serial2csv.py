@@ -85,7 +85,7 @@ while True:
                     writer = csv.writer(f,delimiter=",")
                     writer.writerow(decoded_bytes)
     except ValueError:
-        print("Cannot convert to floats", ser_bytes)
+        print("Cannot convert to floats", ser_shoeleft)
     except:
         print("Keyboard Interrupt")
         break
