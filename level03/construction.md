@@ -120,19 +120,80 @@ We select following components:
 4. WeMos D1 Mini board.
 
 #### Creating the connector
-
-The connector is explained here
+Now we create the textile connector to connect our pressure pad with our electronics. Take the Ingegno 3 wire elastic fabric, and cut 5cm lengthwise, so as to have a left wire and a right wire. Sew reinforcement under it.
 
 ![Connector](L05b_step01.png)
 
+Then connect the other side of the snap buttons to the connector. Use conductive thread to do this and make sure there is a good contact between the snap button and the wire on this side of the connector
+
+![Connector and snap button](L05b_step02.png)
+
+One side goes to the first button on the pressure pad, the other side to the other button. 
+
+![Connector and snap button](L05b_step03.png)
+
+#### Adding the electronics and the connections to sensor and actuator
+
+The electronics are the WeMos and the neopixels, which are rigid components. We need to create a method to connect them to our fabric in a strong way. For this, we create loops. Cut a piece of single core filament wire of 3cm, strip away the plastic, and use a round plier to create a loop and connector. 
+
+![wire and plier](L05b_step04.png)
+
+A neopixel will need 4 loops, one for 5V in, one for GND, one for signal Din, and one for the out signal Dout. The placement will be like:
+
+![loops and neopixel](L05b_step05.png)
+
+For simplicity, we create a lasercut hole in 3mm mdf to place the neopixel in, so as to simplify soldering the loops. Put tin on the end of the loops first, use tape to avoid movement of the loops while soldering.
+
+![loops and neopixel](L05b_step06.png) ![loops and neopixel](L05b_step07.png)
+
+You should end up with your neopixel in a format that allows sewing
+
+![loops and neopixel](L05b_step08.png)
+ 
+Different configurations are possible, all are good.
+
+![loops and neopixel](L05b_step09.png)
+
+Also the wemos must be adapted in such a way as to allow integration with fabric. We created a lasercut base to strengthen the wemos and the connections, and soldered loops to pins that are needed. For the sensing circuit to the presssure pad we use D7 and D5, where if D7 is HIGH (=3.3V) and D5 is LOW (=GND or 0V), the sensor is used. Between the sensor and D5 the fixed sensing resistor is placed, it's value should be computed based on the resistance of the variable sensor resistance, see the skills4smartex course. Between the variable resistor and the fixed resistor, we connect to A0 to read out the pressure value of the variable resistor. The setup is as follows.
+
+![loops and wemos](L05b_step10.png)
+
+In the above figure, the 5V still needs to be soldered. 
+Now place the WeMos on the fabric so as to integrate it with the fabric. To allow the base fabric to be washed, we attach the WeMos to a secondary fabric we will be able to remove from the base fabric. Snap buttons are again used for this. So use conductive wires to connect from the loops of the WeMos to the location where you place the snap buttons.
+
+![wemos to snap buttons](L05b_step12.png)
+
+As you can see, the base plate has holes which are used to connect the WeMos to the secondary fabric more securely. Do this for all the pins needed
+
+![wemos to snap buttons](L05b_step13.png)
+
+Now determine the correct location of the corresponding snap buttons on the base fabric, and sew them in place.
+
+![wemos to snap buttons](L05b_step14.png)
+
 #### Creating the actuator: neopixel LED on fabric
 
-Adding neopixel to a fabric
+The actuation is done with the neopixels. Decide where they should be placed on the base fabric. Now draw the sewing lines in such a way that they __do not touch__. The great thing about working with felt is that due to it's thickness we can place a yarn on the inside of the felt also to make sure there is no contact. Also be carefull not to run wires that could touch the WeMos, as that can create short circuit also! We only need GND, 5V and pin D3 in this application, so we use following traces:
 
-#### Adding the WeMos and connections to sensor and actuator
+![traces](L05b_step15.png)
 
-Connecting sensor and neopixel to the WeMos and placing the WeMos on the fabric
+Carefully sew all these traces with conductive yarn.
 
-### Step 4 - Testing and Finishing touches
+![traces](L05b_step16.png)
 
-Pictures of the final result
+### Step 4 - Finishing touches
+
+For the D5 and D7 pins that connect to the sensor, two snap buttons are used at the end of the connector to connect to our base fabric on the visible side of the fabric (so the back side of this the electronics run.
+
+![snap buttons to connectors](L05b_step16.png)
+
+Congratulations, you have finished your prototype. The base fabric can now be attached to a wall, or pillow, or another application that can use the pressure sensor.
+
+![final prototype](L05b_step17.png)
+
+You can now upload code to the WeMos to calibrate your sensor (see skills4smartex course), or code that can respond to the pressure input, see below
+
+### Step 5 - Programming
+
+A level 3 smart prototype needs programming of the micro-processor in order to have an acutation based on the sensor input. First you should calibrate your sensor. See the Skills4Smartex course Smart2Stem for an example of this. Here we give an example of possible the final code to run on the WeMos.
+
