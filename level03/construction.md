@@ -189,11 +189,11 @@ Carefully sew all these traces with conductive yarn.
 
 For the D5 and D7 pins that connect to the sensor, two snap buttons are used at the end of the connector to connect to our base fabric on the visible side of the fabric (so the back side of this the electronics run.
 
-![snap buttons to connectors](L05b_step16.png)
+![snap buttons to connectors](L05b_step17.png)
 
 Congratulations, you have finished your prototype. The base fabric can now be attached to a wall, or pillow, or another application that can use the pressure sensor.
 
-![final prototype](L05b_step17.png)
+![final prototype](L05b_step18.png)
 
 You can now upload code to the WeMos to calibrate your sensor (see skills4smartex course), or code that can respond to the pressure input, see below
 
