@@ -123,6 +123,8 @@ We select following components:
 
 The connector is explained here
 
+![Connector](L05b_step01.png)
+
 #### Creating the actuator: neopixel LED on fabric
 
 Adding neopixel to a fabric
