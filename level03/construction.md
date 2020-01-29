@@ -154,7 +154,11 @@ Different configurations are possible, all are good.
 
 ![loops and neopixel](L05b_step09.png)
 
-Also the wemos must be adapted in such a way as to allow integration with fabric. We created a lasercut base to strengthen the wemos and the connections, and soldered loops to pins that are needed. For the sensing circuit to the presssure pad we use D7 and D5, where if D7 is HIGH (=3.3V) and D5 is LOW (=GND or 0V), the sensor is used. Between the sensor and D5 the fixed sensing resistor is placed, it's value should be computed based on the resistance of the variable sensor resistance, see the skills4smartex course. Between the variable resistor and the fixed resistor, we connect to A0 to read out the pressure value of the variable resistor. The setup is as follows.
+Also the wemos must be adapted in such a way as to allow integration with fabric. We created a lasercut base to strengthen the wemos and the connections, and soldered loops to pins that are needed. The svg file you can use to lasercut is:
+
+![wemosholder](wemosholder/wemosholder.svg)
+
+For the sensing circuit to the presssure pad we use D7 and D5, where if D7 is HIGH (=3.3V) and D5 is LOW (=GND or 0V), the sensor is used. Between the sensor and D5 the fixed sensing resistor is placed, it's value should be computed based on the resistance of the variable sensor resistance, see the skills4smartex course. Between the variable resistor and the fixed resistor, we connect to A0 to read out the pressure value of the variable resistor. The setup is as follows.
 
 ![loops and wemos](L05b_step10.png)
 
@@ -197,3 +201,10 @@ You can now upload code to the WeMos to calibrate your sensor (see skills4smarte
 
 A level 3 smart prototype needs programming of the micro-processor in order to have an acutation based on the sensor input. First you should calibrate your sensor. See the Skills4Smartex course Smart2Stem for an example of this. Here we give an example of possible the final code to run on the WeMos.
 
+## Demonstrator 06: smart shoe
+
+In the same principle a smart shoe insole can be made. 
+
+For this a more robust WeMos holder is needed that can be placed on the side of a shoe. A possible construction is the following svg file:
+
+![wemosholder](wemosholder/wemosholder_sideshoe.svg)
