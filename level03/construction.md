@@ -201,6 +201,40 @@ You can now upload code to the WeMos to calibrate your sensor (see skills4smarte
 
 A level 3 smart prototype needs programming of the micro-processor in order to have an acutation based on the sensor input. First you should calibrate your sensor. See the Skills4Smartex course Smart2Stem for an example of this. Here we give an example of possible the final code to run on the WeMos.
 
+Open your browser on [blokkencode.ingegno.be](http://blokkencode.ingegno.be/index_en.html). 
+
+Drag from the `Components` sidebar a board on the canvas, and change it to NodeMCU, which includes the WeMos as type. Set the pins we are using:
+
+![final prototype](L05c_step01.png)
+
+So we have `D5` which normally will be set to `LOW`, so our Ground, and `D7` that is set to `HIGH` normally, 3.3V. This connects to the pressure sensor. Then `D3` our input pin for the Neopixels, and `A0` to read out the sensor value, soa Analog Sensor block.
+
+Notice that the Neopixel has 2 pixels. The Neopixels used by us are type RGB+White and 800 KHz. Finally, for debugging purposes we also set up a serial channel at speed 57600 bps.
+
+Now from the Functions sidebar select the Arduino block, and create following setup: 
+
+![final prototype](L05c_step03.png)
+
+As you see, 4 variables are created.
+
+For the debugging, from the Functions sidebar, select an effect that runs once every 1000 milliseconds, and that prints out the measured pressure value.
+
+![final prototype](L05c_step02.png)
+
+Now, create the actual code that reads in the sensor value and determines based on that what color to show on the Neopixels. One possibility is:
+
+![final prototype](L05c_step04.png)
+
+You are finished, copy your code to the Arduino IDE. You need to have the Adafruit Neopixel library installed, so go to `Tools--> Manage Libraries`, search for this library and install it.
+
+![final prototype](L05c_step06.png)
+
+Now upload this sketch to your board. In the Arduino IDE select for the Wemos board, following settings:
+
+![final prototype](L05c_step05.png)
+
+Connect the usb cable to your WeMos, select the correct port, and upload the code.
+
 ## Demonstrator 06: smart shoe
 
 In the same principle a smart shoe insole can be made. 
