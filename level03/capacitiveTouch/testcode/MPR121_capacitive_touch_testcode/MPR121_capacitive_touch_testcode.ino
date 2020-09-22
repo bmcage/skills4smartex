@@ -34,7 +34,7 @@ boolean releasedtouchStates[12]; //to keep track if button was just released
 int mapposition2pin[connectedelectrodes] = {4, 2, 5, 3, 1, 0};
 
 // setup the OLED display of 128x32
-// I2C on D2 = SDA and D1 =SCL 
+// I2C on D1 = SDA and D2 =SCL 
 int pSDA = D1;
 int pSCL = D2;
 // Use U8X8_PIN_NONE if the reset pin is not connected
@@ -53,8 +53,7 @@ void setup(void) {
   }
 
   //set up OLED and MPR121 over I2C bus 
-  Wire.begin(pSDA, pSCL);   // Initialiseer de I2C bus op pinnen GPIO0 (= D3) SDA en GPIO 02 (= D4) SCL
-
+  Wire.begin(pSDA, pSCL);   // Initialiseer de I2C
   mpr121_setup();
   if (SHOWonU8g2) {
     u8g2.begin();
