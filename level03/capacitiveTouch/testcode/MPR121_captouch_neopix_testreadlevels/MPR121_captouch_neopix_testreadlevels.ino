@@ -21,7 +21,7 @@ bool changedstate = false;
 
 // neopixel pin
 int NeoPixel = D4;
-// I2C on D2 = SDA and D1 =SCL 
+// I2C on D1 = SDA and D2 =SCL 
 int pSDA = D1;
 int pSCL = D2;
 
@@ -136,6 +136,7 @@ void loop(void) {
       //delay(500);
     }
   }
+     show_light();
   delay(100);
 }
 
@@ -250,6 +251,19 @@ void readTouchInputs(){
     startinbedtime = millis();
   }
 }
+void show_light() {
+  for (uint8_t i=0; i<12; i++) {
+    if (SHOWonNeoPix) {
+      if (filteredData(i) > 90) {
+        myNeo_NeoPixel.setPixelColor(i, myNeo_NeoPixel.Color(0,0,0));
+        myNeo_NeoPixel.show();
+      } else {
+        myNeo_NeoPixel.setPixelColor(i, myNeo_NeoPixel.Color(0,100,0));
+        myNeo_NeoPixel.show();
+      }
+    }
+  }
+}
 
 void show_debugdata() {
   Serial.print("\t\t\t\t\t\t\t\t\t\t\t\t\t 0x"); Serial.println(touched(), HEX);
@@ -257,16 +271,6 @@ void show_debugdata() {
   Serial.print("Filt: ");
   for (uint8_t i=0; i<12; i++) {
     Serial.print(filteredData(i)); Serial.print("\t");
-    if (SHOWonNeoPix) {
-      if (filteredData(i) > 155) {
-        myNeo_NeoPixel.setPixelColor(i, myNeo_NeoPixel.Color(0,0,0));
-        myNeo_NeoPixel.show();
-      } else {
-        myNeo_NeoPixel.setPixelColor(i, myNeo_NeoPixel.Color(0,100,0));
-        myNeo_NeoPixel.show();
-        
-      }
-    }
   }
   Serial.println();
   Serial.print("Base: ");
